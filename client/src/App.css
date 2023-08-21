@@ -1,0 +1,111 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background: linear-gradient(to bottom, #e7343de1, #73081f, #0a0000);
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+ 
+}
+
+.custom-container {
+  width: 30%;
+  background: linear-gradient(to bottom, #7f69f0, #3851be, #080608);
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+}
+
+.crypto-select {
+  margin-top: 10px;
+  width: 100%;
+  padding: 5px;
+}
+
+.crypto-cards {
+  display: grid;
+  gap: 10px;
+}
+
+.crypto-card {
+  background: linear-gradient(to left, #203549, #1c3e63, rgb(26, 17, 26));
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.wrapper {
+  width: 600px;
+  height: 400px;
+  margin: auto;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #445A6F;
+  margin-bottom: 20px;
+}
+
+h2{
+  color: #1f031f;
+  font-size: 22px;
+   margin-bottom: 20px;
+}
+.ind{
+padding: 7px;
+
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  background: linear-gradient(to bottom, #203549, #1c3e63ee, rgb(33, 27, 40));
+  border: 1px solid #445A6F;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.stock-card {
+  background: linear-gradient(to left, #fbfbfb, #b0b3b2, #dfe9e5);
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+ 
+}
+
+.stock-card h4 {
+  font-size: 18px;
+  color: #333;
+}
+
+.stock-card p {
+  font-size: 14px;
+  color: #555;
+}
+
+a {
+  color: #445A6F;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
